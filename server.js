@@ -4,6 +4,7 @@ import morgan from "morgan";
 import dotenv from "dotenv";
 import userRoutes from "./routes/users.js";
 import pgClient from "./db.js";
+import adminRoutes from "./routes/admin.js";
 
 
 
@@ -20,6 +21,7 @@ app.use(morgan("dev"));
 
 
 app.use("/api/users", userRoutes);
+app.use("/api/admin", adminRoutes);
 
 
 
