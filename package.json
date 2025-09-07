@@ -2,7 +2,7 @@
   "name": "final_back",
   "version": "1.0.0",
   "description": "for the backend",
-  "main": "index.js",
+  "main": "server.js",
   "type": "module",
 
   "scripts": {
